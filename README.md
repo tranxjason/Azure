@@ -18,11 +18,23 @@ In this project, a honeynet is created using Microsoft Azure to attract real-wor
 - <b>Microsoft Sentinel for Security Information and Event Management (SIEM)</b>
 - <b>Microsoft Defender for Cloud to Protect Cloud Resources</b>
 
-<h2>Environments Used </h2>
+<h2>Methodology</h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>*Creating the honeynet:* Began by deploying multiple vulnerable virtual machines in Azure, simulating an insecure environment.</b>
 
-<h2>Program walk-through:</h2>
+
+- <b>*Monitoring and analysis:* Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.</b>
+
+
+- <b>*Security metrics measurement:* Observed the environment for 24 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures.</b>
+
+
+- <b>*Incident response and remediation:* After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations.</b>
+
+
+- <b>*Post-remediation analysis:* Re-observed the environment for another 24 hours to measure security metrics again, comparing the results with the initial baseline.</b>
+  
+<h2>Architecture Prior to Implementing Hardening Measures and Security Controls</h2>
 
 <p align="center">
 Launch the utility: <br/>

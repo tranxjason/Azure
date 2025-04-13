@@ -1,9 +1,9 @@
-<h1></h1>
+<h1>Azure Honeynet: SOC Simulation Real-World Cyber Attacks</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this project, a honeynet is created using Microsoft Azure to attract real-world traffic from attackers across the globe. The primary objective is to showcase security practices in cybersecurity, incident response strategies, and the impact of hardening a networked environment. To achieve this, virtual machines are deliberately deployed without protections, exposing them to the public internet and inviting malicious activity. After collecting logs into a Log Analytics Workspace, Microsoft Sentinel is used to generate attack maps, alerts, and incident reports. This setup allows us to compare metrics before and after implementing security hardening, based on incidents captured over a 24-hour period.
 <br />
 
 

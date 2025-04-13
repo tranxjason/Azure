@@ -1,6 +1,6 @@
 <h1>Azure Honeynet: SOC Simulation Real-World Cyber Attacks</h1>
 
-
+![image alt](https://github.com/tranxjason/Azure/blob/0b7f9e0f6b605894cf9d2a0168864c983a470888/azure%20honenet.jpg)
 
 <h2>Description</h2>
 In this project, a honeynet is created using Microsoft Azure to attract real-world traffic from attackers across the globe. The primary objective is to showcase security practices in cybersecurity, incident response strategies, and the impact of hardening a networked environment. To achieve this, virtual machines are deliberately deployed without protections, exposing them to the public internet and inviting malicious activity. After collecting logs into a Log Analytics Workspace, Microsoft Sentinel is used to generate attack maps, alerts, and incident reports. This setup allows us to compare metrics before and after implementing security hardening, based on incidents captured over a 24-hour period.

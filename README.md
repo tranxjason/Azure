@@ -7,10 +7,16 @@ In this project, a honeynet is created using Microsoft Azure to attract real-wor
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Azure Components Utilized</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Azure Virtual Network (VNet)</b> 
+- <b>Azure Network Security Group</b>
+- <b>Virtual Machines (2x Windows, 1x Linux)</b>
+- <b>Log Analytics Workspace with Kusto Query Language (KQL) Queries</b>
+- <b>Azure Key Vault for Secure Secrets Management</b>
+- <b>Azure Storage Account for Data Storage</b>
+- <b>Microsoft Sentinel for Security Information and Event Management (SIEM)</b>
+- <b>Microsoft Defender for Cloud to Protect Cloud Resources</b>
 
 <h2>Environments Used </h2>
 
